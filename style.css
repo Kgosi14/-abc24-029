@@ -1,0 +1,148 @@
+body {
+ 
+    font-family: Arial, sans-serif;
+     
+    color: #110c0c;
+     
+    background-color:#f9f9f9 ;
+     
+    margin: 0;
+     
+    padding: 0;
+     
+    line-height: 1.6;
+     
+    justify-content: center;
+    }
+    header {
+     
+    background-color: #2270bd;
+     
+    color: white;
+     
+    padding: 20px;
+     
+    text-align: center;
+     
+    }
+     
+    .products {
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: flex-start;
+    }
+    .product-card {
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: flex-start;
+        width: 250px;
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 16px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        font-family: Arial, sans-serif;
+
+      }
+  
+      .product-card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+      }
+  
+      .product-name {
+        margin-top: 12px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+  
+      .product-price {
+        margin-top: 8px;
+        font-size: 16px;
+        color: #3825ce;
+      }
+     
+     
+    header h1 {
+     
+    margin: 0;
+     
+    }
+     
+     
+    nav a {
+     
+    color: white;
+     
+    text-decoration: none;
+     
+    margin: 0 10px;
+     
+    }
+     
+     
+    nav a:hover {
+     
+    text-decoration: underline;
+     
+    }
+    .main-content {
+     
+    padding: 20px;
+     
+    max-width: 1000px;
+     
+    margin: 0 auto;
+     
+    }
+     
+     
+    
+    footer {
+     
+    background-color: #2270bd;;
+     
+    color: rgb(8, 7, 7);
+     
+    text-align: center;
+     
+    padding: 10px;
+     
+    position: fixed;
+     
+    bottom: 0;
+     
+    width: 100%;
+     
+    }
+
+    p {
+        padding: 0px;
+     
+    font-size: 1.1em;
+     
+    }
+     
+     
+    a {
+     
+    color: #66B2FF;
+     
+    text-decoration: none;
+     
+    }
+     
+     
+    a:hover {
+     
+    text-decoration: underline;
+     
+   
+    main a[href^="mailto:"] {
+     
+    color: white;
+     
+    font-weight: bold;
+     
+    }
