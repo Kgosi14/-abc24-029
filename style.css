@@ -32,7 +32,7 @@ body {
       justify-content: flex-start;
     }
     .product-card {
-     
+    background-color: #f8f8f8;
       flex-wrap: wrap;
       display: flex;
       justify-content: flex-start;
