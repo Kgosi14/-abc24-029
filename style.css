@@ -46,7 +46,6 @@ body {
       }
   
       .product-card img {
-          background-color:white
         max-width: 100%;
         height: auto;
         border-radius: 4px;
@@ -96,18 +95,6 @@ body {
      
     margin: 0 auto;
      
-    }
-     .hamburger{
-         display: none;
-         font-size:28px;
-         cursor: pointer;
-     }
-   .menu-toggle{
-       display:none;
-   }
-@media(max-width: 760px) {
-    .hamburger {
-        display: block;
     }
      
     
