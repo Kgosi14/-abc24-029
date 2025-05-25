@@ -96,7 +96,18 @@ body {
     margin: 0 auto;
      
     }
-     
+     .hamburger{
+         display: none;
+         font-size:28px;
+         cursor: pointer;
+     }
+   .menu-toggle{
+       display:none;
+   }
+@media(max-width: 760px) {
+    .hamburger {
+        display: block;
+    }
      
     
     footer {
