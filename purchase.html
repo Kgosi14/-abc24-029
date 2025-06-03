@@ -53,9 +53,15 @@
 <main>
   <div class="main-content">
 <body style="background-image: url('https://github.com/Kgosi14/-abc24-029/blob/main/Copy.jpg?raw=true'); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-position: center; margin: 0; height: 200vh;">
-    <h3>Please type in the type of stamps as well as the amount of stamps you want to buy.</h3>
+    <h3>Please enter your details and the stamps as well as the amount of stamps you want to buy.</h3>
 <!-- Feedback form -->
 <form action="https://formspree.io/f/mnndjlje" method="POST"
+ <label for="name">Name:</label><br>
+<input type="text" id="name" name="name" required><br><br>
+<label for="number">number</label><br>
+<input type="number" id="number" name="number" required><br><br>
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email" required><br><br>
 <label for="message"></label><br>
 <textarea id="message" name="message" rows="5" style="width: 400px;"></textarea><br><br>
 <button type="submit" class="btn btn-primary">submit</button>
